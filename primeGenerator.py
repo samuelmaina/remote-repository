@@ -1,9 +1,10 @@
-
+import math
 
 def isPrime(num):
     if num <=1:
         return False
-    for factor in range(2,num):
+    bound= int(math.sqrt(num))
+    for factor in range(2,bound):
         if num % factor ==0:
             return False
     return True
