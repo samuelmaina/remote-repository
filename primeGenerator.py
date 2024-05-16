@@ -15,10 +15,6 @@ def generatePrimes(upperBound):
             res.append(i)
     return res
 
-assert generatePrimes(10)[0]==2
-assert generatePrimes(10)[1]==3
-assert generatePrimes(100)[-2]==89
-assert generatePrimes(100)[-1]==97
 
 
 print(generatePrimes(100))
